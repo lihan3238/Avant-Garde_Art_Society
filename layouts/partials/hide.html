@@ -1,0 +1,15 @@
+<script>
+    var OriginTitile = document.title;
+    var titleTime;
+    document.addEventListener('visibilitychange', function () {
+        if (document.hidden) {
+            document.title = '别看别的了，快回来😭';
+            clearTimeout(titleTime);
+        } else {
+            document.title = '你果然回来了😊';
+            titleTime = setTimeout(function () {
+                document.title = OriginTitile;
+            }, 2000);
+        }
+    });
+</script>
