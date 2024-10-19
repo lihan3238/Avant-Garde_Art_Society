@@ -1,5 +1,5 @@
 ---
-title: 社团活动
+title: 活动记录
 description: 社团发起的活动记录
 image:
 
